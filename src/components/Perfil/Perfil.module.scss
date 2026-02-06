@@ -1,11 +1,133 @@
 .secPerfil {
-border: solid;
-display: flex;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  .articleperfil {
+    border: solid #efeeea 1px;
+    border-radius: 10px;
+    width: 50vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
 
-.imagemPerfil{
-    border: solid red;
+    .divperfil {
+      .h1perfil {
+        text-align: center;
+        margin: 1.6rem;
+        font-family: "Inter";
+        font-weight: 700;
+      }
+
+      .h3 {
+        text-align: center;
+        color: #278733;
+        font-family: "Inter";
+        font-weight: 500;
+        margin: 1rem;
+      }
+
+      .p1 {
+        text-align: center;
+        font-family: "Inter";
+        font-weight: 500;
+        margin: 1rem;
+      }
+
+      address {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+      }
+
+      .linksPerfil {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #d4e7d6;
+        color: #278733;
+        height: 4vh;
+        width: 6.5vw;
+        font-family: "Inter";
+        font-size: 0.8rem;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .imagemPerfil {
+    border: solid #205691;
     border-radius: 100px;
-    width: 15vw;
+    margin: 2.5rem;
+    width: 10vw;
+    height: 20vh;
+  }
 }
+
+////////////////////////////////////////////////////////
+///          RESPONSIVO
+////////////////////////////////////////////////////////
+
+@media (min-width: 201px) and (max-width: 500px) {
+  .secPerfil {
+    height: 100vh;
+
+    .articleperfil {
+      width: 100vw;
+      height: 100vh;
+
+      .imagemPerfil {
+        border: solid #205691;
+        border-radius: 100px;
+        margin: 2.5rem;
+        width: 50vw;
+        height: 30vh;
+      }
+
+      .divperfil {
+        .h1perfil {
+          margin: 1.6rem;
+        }
+
+        .h3 {
+          margin: 1rem;
+        }
+
+        .p1 {
+          margin: 1rem;
+        }
+
+        address {
+          display: flex;
+          justify-content: space-evenly;
+          text-align: center;
+        }
+
+        .linksPerfil {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 2rem;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 6vh;
+          width: 10vw;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
 }

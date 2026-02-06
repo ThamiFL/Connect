@@ -38,12 +38,17 @@
 @media (min-width: 201px) and (max-width: 500px) {
   .navBar {
     height: 10vh;
+   display: flex;
+
 
     ul {
       a {
         font-size: 0.7rem;
       }
     }
+
+
+
 
     .imgLogo {
       width: 10vw;
