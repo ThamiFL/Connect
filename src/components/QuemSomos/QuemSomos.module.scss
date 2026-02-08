@@ -1,0 +1,47 @@
+.secQuem {
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .h1Quem {
+    color: #205691;
+    font-family: "Source Sans 3";
+    font-weight: 700;
+    font-size: 3rem;
+    width: 35vw;
+    margin-right: 3rem;
+    margin-top: 3rem;
+  }
+
+  .pQuem {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: justify;
+   
+    width: 35vw;
+    margin: 3rem;
+
+    .pQuem1 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+//////////////////////////////////////////////////////
+///                   RESPONSIVO
+//////////////////////////////////////////////////////
+
+@media (min-width: 201px) and (max-width: 500px) {
+  .secQuem{
+
+     display: flex;
+  flex-direction: column;
+  }
+}

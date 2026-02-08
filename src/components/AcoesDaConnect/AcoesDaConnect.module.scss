@@ -1,0 +1,38 @@
+.secAcoes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+
+  .h1Acoes {
+    color: #205691;
+    font-family: "Source Sans 3";
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
+  }
+
+  .pAcoes {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.3rem;
+    border: solid;
+    
+     }
+
+  .articleAcoes {
+    border: solid;
+  }
+
+  .botao {
+    background-color: #205691;
+    color: #ffffff;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 10px;
+    font-family: "Source Sans 3";
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
