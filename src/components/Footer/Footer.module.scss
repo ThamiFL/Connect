@@ -1,0 +1,66 @@
+footer {
+    background-color: #205691;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     height: 10vh;
+     color: #ffffff;
+
+
+
+
+  div {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    
+  }
+
+    p {
+ 
+  width: 30vw;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Inter";
+}
+
+  .navFooter {
+       width: 15%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+//Responsivo do footer
+
+@media (min-width: 201px) and (max-width: 500px) {
+  footer {
+    flex-direction: column-reverse;
+    height: 35vh;
+
+    div {
+      width: 60%;
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+    }
+
+    p {
+      width: 90%;
+    }
+
+  .navFooter {
+      width: 80%;
+    }
+  }
+}
+

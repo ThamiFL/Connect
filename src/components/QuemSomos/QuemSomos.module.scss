@@ -1,9 +1,9 @@
 .secQuem {
-  
-  background-size: contain;
+ 
+  height: 85vh;
+  background-image: url("../../assets/backgroundQuemSomos.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-size: 100% 85vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -18,21 +18,15 @@
     margin-top: 3rem;
   }
 
-  .pQuem {
+  p {
     font-family: "Inter";
     font-weight: 400;
     font-size: 1.3rem;
     text-align: justify;
-   
-    width: 35vw;
-    margin: 3rem;
+       width: 35vw;
+    margin: 2rem;
 
-    .pQuem1 {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
   }
-}
 
 //////////////////////////////////////////////////////
 ///                   RESPONSIVO
@@ -44,4 +38,5 @@
      display: flex;
   flex-direction: column;
   }
+}
 }

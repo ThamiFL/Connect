@@ -6,23 +6,25 @@ export default function QuemSomos() {
     <section className={styles.secQuem}>
       <h1 className={styles.h1Quem}>Como a Connect atua em projetos sociais</h1>
       <div>
-        <p className={styles.pQuem}>
+     <p>
           A Connect é uma iniciativa que conecta empresas, pessoas e
           organizações sociais com um propósito em comum: gerar impacto positivo
           e transformar realidades. Atuamos no desenvolvimento e apoio a
           projetos sociais nas áreas de educação, inclusão, tecnologia, esporte
           e assistência social, sempre com foco em impacto real e sustentável.
-          <p className={styles.pQuem1}>
-            Há anos, trabalhamos aproximando quem quer ajudar de quem precisa,
-            promovendo ações sociais estruturadas, transparentes e alinhadas às
-            necessidades das comunidades. Acreditamos que a transformação
-            acontece quando propósito, colaboração e responsabilidade caminham
-            juntos.
-          </p>
+        </p>
+        <p>
+          Há anos, trabalhamos aproximando quem quer ajudar de quem precisa,
+          promovendo ações sociais estruturadas, transparentes e alinhadas às
+          necessidades das comunidades. Acreditamos que a transformação acontece
+          quando propósito, colaboração e responsabilidade caminham juntos.
+        </p>
+        <p>
           Nosso compromisso é conectar boas causas a quem deseja fazer a
           diferença, criando pontes entre empresas, voluntários e projetos
           sociais que realmente transformam vidas.
         </p>
+      
       </div>
     </section>
   );

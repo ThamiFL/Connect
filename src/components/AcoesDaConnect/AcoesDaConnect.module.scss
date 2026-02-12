@@ -1,38 +1,74 @@
 .secAcoes {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  .boxTitulosAcoes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    h2 {
+      color: #205691;
+      font-family: "Source Sans 3";
+      font-size: 3rem;
+      font-weight: 700;
+      margin-top: 3rem;
+    }
+
+    p {
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 1.3rem;
+      width: 45vw;
+    }
+  }
+
+  .containerCardsDeAcoes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .cards {
+     margin-top: 1rem ;
+      width: 28vw;
+      height: 35vh;
+      margin: 2rem;
+      text-align: center;
+      justify-content: space-around;
+
+
+      h2 {
+color: #205691;
+font-family: "Inter"
+      }
+
+p{
+ 
+  font-family: "Inter";
+  font-size: 1rem;
+  width: 70%;
   text-align: center;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
 
-  .h1Acoes {
-    color: #205691;
-    font-family: "Source Sans 3";
-    font-size: 3rem;
-    font-weight: 700;
-    margin-top: 3rem;
-  }
+      img {
+        width: 15vw;
+      }
 
-  .pAcoes {
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 1.3rem;
-    border: solid;
-    
-     }
-
-  .articleAcoes {
-    border: solid;
-  }
-
-  .botao {
-    background-color: #205691;
-    color: #ffffff;
-    border: none;
-    width: 10vw;
-    height: 6vh;
-    border-radius: 10px;
-    font-family: "Source Sans 3";
-    font-weight: 600;
-    font-size: 1rem;
+      button {
+        background-color: #205691;
+        color: #ffffff;
+        border: none;
+        width: 8vw;
+        height: 6vh;
+        border-radius: 10px;
+        font-family: "Source Sans 3";
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+      }
+    }
   }
 }

@@ -2,16 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 85vh;
 
 
   .articleperfil {
-    border: solid #efeeea 1px;
+       border: solid #efeeea 1px;
     border-radius: 10px;
     width: 50vw;
     height: 35vh;
     display: flex;
     justify-content: space-around;
-    margin-top: 15rem;
+   
 
     .divperfil {
       .h1perfil {
@@ -66,7 +67,7 @@
   }
 
   .imagemPerfil {
-    border: solid #205691;
+    border: solid #00AAFF;
     border-radius: 100px;
     margin: 2.5rem;
     width: 10vw;
@@ -80,9 +81,11 @@
 
 @media (min-width: 201px) and (max-width: 500px) {
   .secPerfil {
+   
+
     .articleperfil {
       margin-top: 1rem;
-      height: auto;
+      height: 85vh;
       width: 100vw;
       display: flex;
       flex-direction: column;
@@ -115,6 +118,7 @@
           justify-content: space-evenly;
           text-align: center;
           flex-direction: column;
+       
         }
 
         li {
