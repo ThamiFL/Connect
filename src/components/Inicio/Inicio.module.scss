@@ -13,7 +13,6 @@
       font-size: 6rem;
       font-family: "Source Sans 3";
       font-weight: 700;
-      height: 20vh;
       color: #205691;
     }
 
@@ -21,12 +20,9 @@
       font-family: "Alatsi";
       font-size: 1.2rem;
       color: #205691;
-      margin-top: 6rem;
       font-weight: 400;
     }
   }
-
-
 }
 
 ///////////////////////////////////////////////////////////////
@@ -35,21 +31,22 @@
 
 @media (min-width: 201px) and (max-width: 500px) {
   .sectionDoInicio {
-    height: 100vh;
+       height: 100vh;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-evenly;
 
     .divDoIninio {
       .titulo {
         font-size: 2.5rem;
         text-align: center;
-        margin-top: 2rem;
+       
       }
 
       .paragrafo {
         font-size: 1rem;
-      }
+        margin-top: 2rem;
+         }
     }
 
     .ImgInicial {

@@ -4,7 +4,7 @@ import styles from "./QuemSomos.module.scss";
 export default function QuemSomos() {
   return (
     <section className={styles.secQuem}>
-      <h1 className={styles.h1Quem}>Como a Connect atua em projetos sociais</h1>
+      <h1>Como a Connect atua em projetos sociais</h1>
       <div>
      <p>
           A Connect é uma iniciativa que conecta empresas, pessoas e
@@ -27,5 +27,5 @@ export default function QuemSomos() {
       
       </div>
     </section>
-  );
+  )
 }

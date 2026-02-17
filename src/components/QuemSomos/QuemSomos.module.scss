@@ -1,5 +1,4 @@
 .secQuem {
- 
   height: 85vh;
   background-image: url("../../assets/backgroundQuemSomos.png");
   background-repeat: no-repeat;
@@ -8,7 +7,7 @@
   flex-direction: column;
   align-items: flex-end;
 
-  .h1Quem {
+  h1 {
     color: #205691;
     font-family: "Source Sans 3";
     font-weight: 700;
@@ -23,20 +22,33 @@
     font-weight: 400;
     font-size: 1.3rem;
     text-align: justify;
-       width: 35vw;
+    width: 35vw;
     margin: 2rem;
-
   }
-
+}
 //////////////////////////////////////////////////////
 ///                   RESPONSIVO
 //////////////////////////////////////////////////////
 
 @media (min-width: 201px) and (max-width: 500px) {
-  .secQuem{
+  .secQuem {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-image: none;
 
-     display: flex;
-  flex-direction: column;
+    h1 {
+      width: 80vw;
+      height: 15vh;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    p {
+    
+      width: 85vw;
+      font-size: 0.8rem;
+       text-align: center;
+    }
   }
-}
 }

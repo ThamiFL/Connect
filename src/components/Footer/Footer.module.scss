@@ -17,8 +17,9 @@ footer {
     width: 15%;
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 400;
+       font-family: "Inter";
     }
     
   }
@@ -27,7 +28,7 @@ footer {
  
   width: 30vw;
   text-align: center;
-  font-weight: 400;
+   font-weight: 400;
   font-family: "Inter";
 }
 
@@ -38,7 +39,9 @@ footer {
   }
 }
 
-//Responsivo do footer
+/////////////////////////////////////////////////////////////
+///                      RESPONSIVO
+//////////////////////////////////////////////////////////////
 
 @media (min-width: 201px) and (max-width: 500px) {
   footer {

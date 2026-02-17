@@ -35,8 +35,16 @@
 //                RESPONSIVO
 /////////////////////////////////////////////////
 
-
 @media (min-width: 201px) and (max-width: 500px) {
+  .navBar {
+    height: 10vh;
 
- 
+    ul {
+      width: 65vw;
+
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
 }
