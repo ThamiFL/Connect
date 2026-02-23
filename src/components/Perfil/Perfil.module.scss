@@ -79,11 +79,11 @@
 
 @media (min-width: 201px) and (max-width: 500px) {
   .secPerfil {
-    height: 130vh;
- 
+    align-items: center;
+    margin-bottom: 12rem;
 
     .articleperfil {
-       margin-top: 1rem;
+      margin-top: 1rem;
       height: 85vh;
       width: 100vw;
       display: flex;
@@ -91,14 +91,13 @@
       border: none;
 
       .imagemPerfil {
-        border: solid 0.3rem #00AAFF;
+        border: solid 0.3rem #00aaff;
         border-radius: 100%;
         width: 80vw;
         height: 48vh;
       }
 
       .divperfil {
-       
         .h3 {
           margin: 1rem;
         }
